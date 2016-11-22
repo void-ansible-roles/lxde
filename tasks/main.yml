@@ -1,3 +1,5 @@
 ---
 - name: Install lxde
-  xbps: pkg=lxde state=present
+  xbps:
+    pkg: lxde
+    state: present
